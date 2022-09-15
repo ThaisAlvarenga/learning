@@ -35,6 +35,9 @@ struct List
         void push_front(Payload newElement);
         void pop_front();
     
+        void push_back();
+        void pop_back();
+    
         int& size() const;
     
         void print() const;

@@ -40,6 +40,13 @@ class Vector
     
         //Task 4a
         void print() const;
+    
+        void pop_front();
+        void push_front();
+    
+        void operator
+    
+        
 
     
 };

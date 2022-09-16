@@ -47,7 +47,7 @@ public:
 
     bool empty() const { return size() == 0;
     }
-    
+
     Payload operator[](int i) const;
     
     

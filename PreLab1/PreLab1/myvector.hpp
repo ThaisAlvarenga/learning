@@ -44,8 +44,7 @@ class Vector
         void pop_front();
         void push_front();
     
-        void operator
-    
+            
         
 
     

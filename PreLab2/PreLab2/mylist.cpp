@@ -29,6 +29,10 @@ void List::push_front(const Payload& x)
 	//this will be necessary if we want a pop/push back convenience method
 	if (size() == 1)
 		tail->next = head->next;
+    //    else
+    //    {
+    //        tail->next = nullptr;
+    //    }
 }
 
 
@@ -46,6 +50,10 @@ void List::push_front(const Payload&& x)
 	//this will be necessary if we want a pop/push back convenience method
 	if (size() == 1)
 		tail->next = head->next;
+        else
+        {
+            tail->next = nullptr;
+        }
 }
 
 
@@ -61,15 +69,15 @@ void List::pop_front()
 
 int List::size() const
 {
-	int size = 0;
-	Node *nextptr = head;
+    int size = 0;
+    Node *nextptr = head;
 
-	while (nextptr->next != tail)
-	{
-		nextptr = nextptr->next;
-		++size;
-	}
-	return size;
+    while (nextptr-> next != tail)
+    {
+        nextptr = nextptr->next;
+        ++size;
+    }
+    return size;
 }
 
 
@@ -151,3 +159,4 @@ Payload List::operator[](int i) const{
         // Otherwise return the value of node we were looking for
         return (current == nullptr ? 0 : current->payload);
 }
+

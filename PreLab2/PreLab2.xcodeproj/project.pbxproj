@@ -34,6 +34,7 @@
 		6842737028CC9E6000E14A3B /* myvector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myvector.h; sourceTree = "<group>"; };
 		6842737128CC9E6000E14A3B /* payload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = payload.h; sourceTree = "<group>"; };
 		6842737228CC9E6000E14A3B /* mylist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mylist.cpp; sourceTree = "<group>"; };
+		68D11E5F28D41D1D00D54F0D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +51,7 @@
 		6842735928CC9E1600E14A3B = {
 			isa = PBXGroup;
 			children = (
+				68D11E5F28D41D1D00D54F0D /* README.md */,
 				6842736428CC9E1600E14A3B /* PreLab2 */,
 				6842736328CC9E1600E14A3B /* Products */,
 			);

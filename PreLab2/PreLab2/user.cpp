@@ -113,15 +113,13 @@ template <class Container> void run(string message, int n)
 int main()
 {
     
-//    Vector v;
-//    v.push_back("hello");
-//    v.push_back("how");
-//    v.push_back("are");
-//    v.push_back("you");
-//    v.print();
+    List v;
+    v.push_back("hello");
+    v.push_back("how");
+    v.print();
 
     
-    run<Vector>("Vector", 10);
+//    run<Vector>("Vector", 10);
 //    run<List>("List", 10);
 
 //    s.print

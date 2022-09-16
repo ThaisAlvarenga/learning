@@ -10,6 +10,7 @@
 		68AD54EB28CCB80400947CFC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68AD54EA28CCB80400947CFC /* main.cpp */; };
 		68AD54F328CCB81F00947CFC /* mylist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68AD54F128CCB81F00947CFC /* mylist.cpp */; };
 		68AD54F628CCB82800947CFC /* myvector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68AD54F428CCB82800947CFC /* myvector.cpp */; };
+		68D11E5D28D405E600D54F0D /* payload.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68D11E5B28D405E600D54F0D /* payload.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,9 @@
 		68AD54F228CCB81F00947CFC /* mylist.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = mylist.hpp; sourceTree = "<group>"; };
 		68AD54F428CCB82800947CFC /* myvector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = myvector.cpp; sourceTree = "<group>"; };
 		68AD54F528CCB82800947CFC /* myvector.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = myvector.hpp; sourceTree = "<group>"; };
+		68D11E5B28D405E600D54F0D /* payload.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = payload.cpp; sourceTree = "<group>"; };
+		68D11E5C28D405E600D54F0D /* payload.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = payload.hpp; sourceTree = "<group>"; };
+		68D11E5E28D41D0200D54F0D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,7 @@
 		68AD54DE28CCB80400947CFC = {
 			isa = PBXGroup;
 			children = (
+				68D11E5E28D41D0200D54F0D /* README.md */,
 				68AD54E928CCB80400947CFC /* vector_singlyLList */,
 				68AD54E828CCB80400947CFC /* Products */,
 			);
@@ -64,10 +69,12 @@
 			isa = PBXGroup;
 			children = (
 				68AD54EA28CCB80400947CFC /* main.cpp */,
-				68AD54F128CCB81F00947CFC /* mylist.cpp */,
 				68AD54F428CCB82800947CFC /* myvector.cpp */,
 				68AD54F528CCB82800947CFC /* myvector.hpp */,
+				68AD54F128CCB81F00947CFC /* mylist.cpp */,
 				68AD54F228CCB81F00947CFC /* mylist.hpp */,
+				68D11E5B28D405E600D54F0D /* payload.cpp */,
+				68D11E5C28D405E600D54F0D /* payload.hpp */,
 			);
 			path = vector_singlyLList;
 			sourceTree = "<group>";
@@ -131,6 +138,7 @@
 			files = (
 				68AD54EB28CCB80400947CFC /* main.cpp in Sources */,
 				68AD54F328CCB81F00947CFC /* mylist.cpp in Sources */,
+				68D11E5D28D405E600D54F0D /* payload.cpp in Sources */,
 				68AD54F628CCB82800947CFC /* myvector.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

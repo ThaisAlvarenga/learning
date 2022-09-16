@@ -1,7 +1,7 @@
 #  Pre Lab 2
 
 ## Summary
-This lab contains a custom vector class and a custom linked list struct written in C++.
+This lab contains template functions that can be used with both the Vector and Linked List classes that were created last week.
 
 ## Installation
 IDE : Xcode Version 10.2.1 (10E1001) OS: macOS Monterrey version 14.4
